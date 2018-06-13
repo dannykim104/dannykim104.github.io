@@ -85,7 +85,7 @@
 
 .imagecontainer{
     /* The image used */
-    background-image: url("/osaka.jpg");
+    background-image: url("images/osaka.jpg");
 
     /* Set a specific height */
     min-height: 2000px; 
