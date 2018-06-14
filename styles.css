@@ -230,36 +230,3 @@ list-style-type: square;
     background-color: #ffff99;
 }
 
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
-    width: 70%;
-    margin: auto;
-    height: 40%;
-}
-
-.carousel-inner h3, p{
-    color: black;
-    font-weight: 700;
-}
-
-.carousel-indicators li {
-    display: inline-block;
-    width: 48px;
-    height: 48px;
-    margin: 10px;
-    text-indent: 0;
-    cursor: pointer;
-    border: none;
-    border-radius: 10%;
-    background-color: #0000ff;
-    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);       
-list-style-type: square;
-}
-
-
-.carousel-indicators .active {
-    width: 48px;
-    height: 48px;
-    margin: 10px;
-    background-color: #ffff99;
-}
