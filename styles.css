@@ -26,7 +26,7 @@
     
     background-color: #f6f7f8;
     text-align: center;
-    opacity: 0.7;
+    opacity: 0.9;
     margin-top: 10%;
 
 }
@@ -179,8 +179,8 @@
 
 .proj1{
     background-color: aquamarine;
-    width: 1000px;
-    height: 400px; 
+    width: 1200px;
+    height: 600px; 
     display: block;
     margin-right: 30%; 
 
@@ -189,9 +189,77 @@
 
 .proj2{
     background-color: maroon;
-    width: 1000px;
-    height: 400px; 
+    width: 1200px;
+    height: 600px; 
     display: block;
-    margin-left: 20%
+    margin-left: 10%
 
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+    height: 40%;
+}
+
+.carousel-inner h3, p{
+    color: black;
+    font-weight: 700;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 10%;
+    background-color: #0000ff;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);       
+list-style-type: square;
+}
+
+
+.carousel-indicators .active {
+    width: 48px;
+    height: 48px;
+    margin: 10px;
+    background-color: #ffff99;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+    height: 40%;
+}
+
+.carousel-inner h3, p{
+    color: black;
+    font-weight: 700;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 10%;
+    background-color: #0000ff;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);       
+list-style-type: square;
+}
+
+
+.carousel-indicators .active {
+    width: 48px;
+    height: 48px;
+    margin: 10px;
+    background-color: #ffff99;
 }
