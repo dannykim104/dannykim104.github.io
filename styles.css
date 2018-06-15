@@ -28,6 +28,7 @@
     text-align: center;
     opacity: 0.9;
     margin-top: 10%;
+    padding-bottom: 50px;
 
 }
 
@@ -120,6 +121,7 @@
     display: inline-block;
     font-family: 'Passion One', cursive;
     margin-top: 3.5%;
+    margin-bottom: 50px;
     color: #332626;
     
 }
@@ -178,23 +180,42 @@
 
 
 .proj1{
-    background-color: aquamarine;
+
     width: 1200px;
     height: 600px; 
     display: block;
     margin-right: 30%;  
-    font-family: 'Catamaran', sans-serif;
+    padding-bottom: 200px;
+    margin-top: 2%;
 
 }
 
 
+.proj1 a{
+    font-family: 'Catamaran', sans-serif;
+    font-size: 14pt;
+    color: black; 
+    margin-bottom: 10px;
+    text-decoration: none;
+
+}
+
+.proj2 a{
+    font-family: 'Catamaran', sans-serif;
+    font-size: 14pt;
+    color: black; 
+    margin-bottom: 10px;
+    text-decoration: none;
+
+}
+
 .proj2{
-    background-color: maroon;
+
     width: 1200px;
     height: 600px; 
     display: block;
-    margin-left: 10%
-
+    margin-left: 10%;
+    margin-top: 2%;
 }
 
 .carousel-inner > .item > img,
@@ -208,6 +229,8 @@
     color: black;
     font-weight: 700;
 }
+
+
 
 .carousel-indicators li {
     display: inline-block;
