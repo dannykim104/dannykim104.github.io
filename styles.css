@@ -7,7 +7,7 @@
 
 #intromissiondiv{
     width: 100%;
-    height: 13%;
+    height: 12%;
     background-color: #f5f7f8;
     position: fixed;
     display: block;
@@ -30,6 +30,22 @@
     margin-top: 10%;
     padding-bottom: 50px;
 
+}
+
+#projects hr{
+    display: block;
+    position: relative;
+    padding: 0;
+    margin: 8px auto;
+    height: 0;
+    width: 50%;
+    max-height: 0;
+    font-size: 1px;
+    line-height: 0;
+    clear: both;
+    border: none;
+    border-top: 1px solid #aaaaaa;
+    border-bottom: 1px solid #ffffff;
 }
 
 .projectbox{
@@ -76,6 +92,7 @@
     line-height: 1.5;
     font-size: 13pt;
     font-family: 'Catamaran', sans-serif;
+    padding-bottom: 11px;
 }
 
 .aboutmetext h1{
@@ -105,7 +122,7 @@
     height: 400px;
     display: inline-block;
     vertical-align: top;
-    margin-left: 10%;
+    margin-left: 22%;
     border-radius: 50%;
     border:2px double  rgb(46, 64, 82);
 
@@ -130,6 +147,13 @@
     color: #008CBA;
 }
 
+.resumelink{
+    font-family: 'Passion One', cursive;
+    color: #332626;
+    font-size: 24pt;
+    padding-right: 16px;    
+    margin-left: 50%;
+}
 
 .github{
     width:  50px;
@@ -155,6 +179,7 @@
     display: inline-block;
     background-color: #f6f7f8;
     border-radius: 100%;
+
 }
 
 .overlay:hover{
@@ -187,6 +212,7 @@
     margin-right: 30%;  
     padding-bottom: 200px;
     margin-top: 2%;
+    margin-left: 9%;
 
 }
 
