@@ -152,7 +152,11 @@
     color: #332626;
     font-size: 24pt;
     padding-right: 16px;    
-    margin-left: 50%;
+    position: absolute;
+    top: 30px;
+    right:135px;
+    text-align: right; 
+    font-style: normal;
 }
 
 .github{
@@ -173,14 +177,36 @@
 
 }
 
-.overlay{
+.overlay1{
     width:  55px;
     height: 50px;
     display: inline-block;
     background-color: #f6f7f8;
     border-radius: 100%;
-
+    position: absolute;
+    top: 20px;
+    right: 85px;
+    text-align: right;
+    font-style: normal;
 }
+
+
+.overlay2{
+    width:  55px;
+    height: 50px;
+    display: inline-block;
+    background-color: #f6f7f8;
+    border-radius: 100%;
+    position: absolute;
+    top: 20px;
+    right:  22px;
+    text-align: right;
+    font-style: normal;
+}
+
+
+
+
 
 .overlay:hover{
     opacity: 1;
